@@ -8,6 +8,16 @@ h1{
     color: antiquewhite;
    
 }
+
+input{
+    font-size:20px;
+
+}
+label{
+    font-size: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
 button
 {
     font-size: 30px;
