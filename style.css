@@ -20,7 +20,21 @@ label{
 }
 button
 {
+    color: rgb(255, 134, 134);
+    border-radius: 15px;
     font-size: 30px;
+}
+
+button:hover
+{
+    color: rgb(255, 33, 248);
+    transform: scale(1.1);
+}
+
+button:active
+{
+    color: black;
+    background-color: rgb(255, 33, 248);
 }
 
 
@@ -61,4 +75,22 @@ div{
     {
         transform: translateY(0px);
     }
+}
+
+
+.hearts
+{
+    font-size: 23px;
+    font-weight: bold;
+    position: fixed;
+    top: -lvh;
+    left: 0;
+    animation: fall 1s ease-in infinite;
+}
+
+@keyframes fall 
+{
+    to{
+        transform: translateY(250vh);
+    }    
 }
