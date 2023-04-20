@@ -36,7 +36,7 @@ function hearts(){
     },3000);
 
 }
-setInterval(hearts,80);
+setInterval(hearts,100);
 
 
 

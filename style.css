@@ -9,6 +9,12 @@ h1{
    
 }
 
+#output
+{
+    color: rgb(255, 47, 47);
+    font-size: 100px;    
+}
+
 input{
     font-size:20px;
 
@@ -91,6 +97,6 @@ div{
 @keyframes fall 
 {
     to{
-        transform: translateY(250vh);
+        transform: translateY(100vh);
     }    
 }
