@@ -36,7 +36,6 @@ function hearts(){
 }
 
 
-
 function startFlashing() {
     const inputText = document.getElementById('input1').value;
     const flashingText = document.getElementById('output');

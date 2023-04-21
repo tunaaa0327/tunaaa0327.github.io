@@ -1,0 +1,23 @@
+div{
+    padding: 100px 0;
+    margin: auto;
+    text-align: center;
+}
+
+button:hover{
+    opacity: 70%;
+}
+
+button{
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif');
+    background-repeat: repeat;
+    background-size: cover;
+}
