@@ -8,18 +8,19 @@ h1{
     text-align: center;
     color: antiquewhite;
 }
+h2{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(151, 150, 150, 0.603);
+}
 
 form
 {
     position: relative;
 }
 
-#output
-{
-    position: relative;
-    color: rgb(255, 47, 47);
-    font-size: 100px;    
-}
+
 
 input{
     font-size:20px;
@@ -106,3 +107,54 @@ div{
         transform: translateY(100vh);
     }    
 }
+
+
+
+#output
+{
+    position: relative;
+    color: rgb(255, 47, 47);
+    font-size: 100px;    
+
+}
+
+.rainbow{
+    animation: rainbow 1s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    14% {
+        color: orange;
+    }
+    28% {
+        color: yellow;
+    }
+    43% {
+        color: green;
+    }
+    57% {
+        color: blue;
+    }
+    71% {
+        color: indigo;
+    }
+    85% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
+}
+
+#gwapo
+{
+    position: relative;
+    color: rgba(131, 128, 128, 0.756);
+    font-size: 25px;  
+}
+
+
+

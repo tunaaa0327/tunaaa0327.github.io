@@ -6,6 +6,7 @@ function showInputs() {
     output.innerHTML = input1;
     startMusic();
     document.getElementById("floatimage").style.display = 'block';
+    startFlashing();
     hearts();
 
 }
@@ -16,7 +17,7 @@ function startMusic() {
     const startTimeInSeconds = 50;
     audioPlayer.currentTime = startTimeInSeconds;
     audioPlayer.play();
-    //sample push one
+    //sample pull request
 }
 
 function hearts(){
@@ -25,17 +26,29 @@ function hearts(){
     creat.classList.add('hearts');
     creat.innerHTML = `🍟` + `🍗` + `🍔`;
     creat.style.left = Math.random() * 100 + 'vw';
- 
     creat.style.animationDuration = Math.random() * 3 + 2 + 's';
-
     container.appendChild(creat);
-
     setTimeout(() =>
     {
         creat.remove();
     },3000);
 
 }
+
+
+
+function startFlashing() {
+    const inputText = document.getElementById('input1').value;
+    const flashingText = document.getElementById('output');
+    flashingText.innerHTML = '';
+    for (let i = 0; i < inputText.length; i++) {
+        const letter = document.createElement('span');
+        letter.textContent = inputText[i];
+        letter.className = 'rainbow';
+        flashingText.appendChild(letter);
+    }
+}
+
 setInterval(hearts,100);
 
 
