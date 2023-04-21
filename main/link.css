@@ -17,7 +17,11 @@ button{
 }
 
 body{
-    background-image: url('https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif');
-    background-repeat: repeat;
+    background: url('https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
