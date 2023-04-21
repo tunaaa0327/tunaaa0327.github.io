@@ -3,14 +3,20 @@ body{
 }
 
 h1{
+    position: relative;
     font-size: 50px;
     text-align: center;
     color: antiquewhite;
-   
+}
+
+form
+{
+    position: relative;
 }
 
 #output
 {
+    position: relative;
     color: rgb(255, 47, 47);
     font-size: 100px;    
 }
