@@ -5,6 +5,8 @@ div{
 }
 
 button:hover{
+    transform: scale(1.05);
+    transition: .8s;
     opacity: 70%;
 }
 
