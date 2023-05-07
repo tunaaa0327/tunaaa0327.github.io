@@ -14,16 +14,17 @@
 </body>
 <style>
     body{
-        margin-top: 20rem;
-        background-color: antiquewhite;
-        text-align: center;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
     }
 
     div{
-        border-color: black;
+        margin-top: 40%;
+        width: fit-content;
+        text-align: center;
     }
-
     p{
         text-align: center;
         font-size: 2rem;
@@ -32,7 +33,14 @@
     button{
         border-radius: 25px;
         font-size: 2rem;
-
+    }
+    button:active{
+        transform: translateY(-5px);
+    }
+    @media only screen and (width>600px) {
+        div{
+            margin-top: 15%;
+        }
     }
 </style>
 <script src="quote.js" defer></script>
